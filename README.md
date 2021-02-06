@@ -1,4 +1,4 @@
-My solution can be seen live at <a>codepen.io/d20cm/pen/exyjmgp</a>
+My solution can be seen live at https://codepen.io/d20cm/pen/exyjmgp
 
 Front End Libraries Projects - Build a Drum Machine
 Objective: Build a CodePen.io app that is functionally similar to this: https://codepen.io/freeCodeCamp/full/MJyNMd.
