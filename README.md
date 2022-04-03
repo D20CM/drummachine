@@ -1,4 +1,4 @@
-My solution can be seen live at https://codepen.io/D20CM/pen/ExyjMGP
+My solution can be seen live at https://drum-machine-d20cm.netlify.app/
 
 Front End Libraries Projects - Build a Drum Machine
 Objective: Build a CodePen.io app that is functionally similar to this: https://codepen.io/freeCodeCamp/full/MJyNMd.
