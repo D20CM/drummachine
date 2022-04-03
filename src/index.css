@@ -35,9 +35,11 @@ transition: all 0.5s ease;
 
 #central-block{
   display: flex;
-  background-color: white;
-  width: 800px;
-  height: 400px;
+  /* background-color: white; */
+  width: 100%;
+  max-width: 800px;
+  height: 100%;
+  max-height: 400px;
   border-radius: 10px;
   justify-content: center;
 align-items: center;
@@ -45,7 +47,7 @@ align-items: center;
 
 #pads-area{
   background-color: #aabbcc;
-  width: 50%;
+  width: 80%;
   height: 100%;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -81,7 +83,7 @@ align-items: center;
 
 
 #controls-area{
-  width: 50%;
+  width: 80%;
   height: 100%;
   background-color: bisque;
   text-align: center;
@@ -93,10 +95,12 @@ align-items: center;
 #display{
   background-color: #eee;
   width: 70%;
-  margin: 0 auto;
-  height: 70px;
+  margin: 1em auto;
+  height: 3em;
   border: 2px solid black;
-  
+  display: flex;
+  align-items: center;  
+  justify-content: center;
 
 }
 
@@ -167,3 +171,12 @@ input:checked + .slider:before {
 }
 
 /*end w3schools switch code*/
+
+@media only screen and (max-width: 600px) {
+  #central-block{
+    flex-direction: column;
+  }
+  #controls-area{
+    justify-content: space-evenly;
+  }
+}
